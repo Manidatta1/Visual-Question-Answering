@@ -93,9 +93,8 @@ Multiclass classifier that predicts one of the **301** answer classes.
 
 ---
 
-## 🚀 How to Run
+## 🧑‍💻 Author
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/vqa-multimodal.git
-   cd vqa-multimodal
+**ManiDatta**  
+Master’s in Data Science @ University of Colorado Boulder  
+[GitHub](https://github.com/Manidatta1)
