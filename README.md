@@ -1,6 +1,6 @@
 ---
-title: "Visual Question Answering with Multimodal Architectures"
-description: "VQA system using answerability classification and answer generation models on the VizWiz dataset"
+Title: "Visual Question Answering with Multimodal Architectures"
+Description: "VQA system using answerability classification and answer generation models on the VizWiz dataset"
 ---
 
 # 🤖 Visual Question Answering with Multimodal Architectures
