@@ -1,4 +1,17 @@
 ---
+title: "Visual Question Answering with Multimodal Architectures"
+description: "VQA system using answerability classification and answer generation models on the VizWiz dataset"
+---
+
+# 🤖 Visual Question Answering with Multimodal Architectures
+
+This project presents a **Visual Question Answering (VQA)** system using two distinct multimodal deep learning models. It uses both images and natural language questions to either:
+- ❓ Predict whether a question is answerable (Binary classification)
+- 🗣️ Generate the best answer from 301 predefined classes (Multiclass classification)
+
+Built and evaluated on the **real-world VizWiz dataset**, this project demonstrates attention-based fusion and fine-tuned CNNs for robust image-question reasoning.
+
+---
 
 ## 🧠 Model Architectures
 
@@ -61,7 +74,7 @@ Multiclass classifier that predicts one of the **301** answer classes.
 | Answerability Classifier | Adam, LR: `0.0048`, Hidden Dim: `512`, Batch: `32` |
 | Answer Generator         | Adam, LR: `0.00249`, Hidden Dim: `512`, Batch: `16`, Heads: `4` |
 
-### Notable Observations:
+**Trends:**
 - ResNet18 transfer learning boosted accuracy
 - More attention heads improved multimodal representation
 - Smaller batch sizes improved generalization
