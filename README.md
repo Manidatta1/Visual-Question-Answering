@@ -65,6 +65,9 @@ Multiclass classifier that predicts one of the **301** answer classes.
 | Answerability Classifier | **60.0%** |
 | Answer Generator         | **55.3%** |
 
+
+No pre-trained language models (e.g., BERT, GPT) were used, demonstrating the effectiveness of lightweight, interpretable multimodal fusion techniques in VQA settings.
+
 ---
 
 ## 🔧 Hyperparameter Tuning (Optuna)
