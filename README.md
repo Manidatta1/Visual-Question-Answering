@@ -101,3 +101,10 @@ No pre-trained language models (e.g., BERT, GPT) were used, demonstrating the ef
 **ManiDatta**  
 Master’s in Data Science @ University of Colorado Boulder  
 [GitHub](https://github.com/Manidatta1)
+
+
+📄 **Full Report**
+
+For a detailed explanation of the experiment design, model architecture, hyperparameter tuning, result interpretation, and additional insights, please refer to document Visual Question Answering.docx the included in this repository.
+
+
