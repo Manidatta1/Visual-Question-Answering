@@ -3,19 +3,19 @@ Title: "Visual Question Answering with Multimodal Architectures"
 Description: "VQA system using answerability classification and answer generation models on the VizWiz dataset"
 ---
 
-# 🤖 Visual Question Answering with Multimodal Architectures
+# Visual Question Answering with Multimodal Architectures
 
 This project presents a **Visual Question Answering (VQA)** system using two distinct multimodal deep learning models. It uses both images and natural language questions to either:
-- ❓ Predict whether a question is answerable (Binary classification)
-- 🗣️ Generate the best answer from 301 predefined classes (Multiclass classification)
+- Predict whether a question is answerable (Binary classification)
+- Generate the best answer from 301 predefined classes (Multiclass classification)
 
 Built and evaluated on the **real-world VizWiz dataset**, this project demonstrates attention-based fusion and fine-tuned CNNs for robust image-question reasoning.
 
 ---
 
-## 🧠 Model Architectures
+## Model Architectures
 
-### 1. 🔍 Answerability Classification Model
+### 1. Answerability Classification Model
 
 A binary classifier that predicts if a given image-question pair is answerable.
 
@@ -36,7 +36,7 @@ A binary classifier that predicts if a given image-question pair is answerable.
 
 ---
 
-### 2. ✨ Answer Generation Model
+### 2. Answer Generation Model
 
 Multiclass classifier that predicts one of the **301** answer classes.
 
@@ -58,7 +58,7 @@ Multiclass classifier that predicts one of the **301** answer classes.
 
 ---
 
-## 🧪 Model Performance
+## Model Performance
 
 | Model                    | Accuracy |
 |--------------------------|----------|
@@ -70,7 +70,7 @@ No pre-trained language models (e.g., BERT, GPT) were used, demonstrating the ef
 
 ---
 
-## 🔧 Hyperparameter Tuning (Optuna)
+## Hyperparameter Tuning (Optuna)
 
 | Model                    | Best Params |
 |--------------------------|-------------|
@@ -85,7 +85,7 @@ No pre-trained language models (e.g., BERT, GPT) were used, demonstrating the ef
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python, PyTorch
 - ResNet18 (torchvision)
@@ -96,14 +96,14 @@ No pre-trained language models (e.g., BERT, GPT) were used, demonstrating the ef
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 **ManiDatta**  
 Master’s in Data Science @ University of Colorado Boulder  
 [GitHub](https://github.com/Manidatta1)
 
 
-📄 **Full Report**
+**Full Report**
 
 For a detailed explanation of the experiment design, model architecture, hyperparameter tuning, result interpretation, and additional insights, please refer to document Visual Question Answering.docx the included in this repository.
 
