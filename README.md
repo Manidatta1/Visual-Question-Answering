@@ -12,6 +12,9 @@ This project presents a **Visual Question Answering (VQA)** system using two dis
 Built and evaluated on the **real-world VizWiz dataset**, this project demonstrates attention-based fusion and fine-tuned CNNs for robust image-question reasoning.
 
 ---
+![My Profile](VQA.png)
+
+---
 
 ## Model Architectures
 
